@@ -121,3 +121,48 @@ footer {
     padding: 10px 0;
 }
 
+nav ul li a {
+   transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+   background-color: #8bcbc4;
+   color: white;
+}
+
+table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 20px;
+}
+
+caption {
+   font-weight: bold;
+   margin-bottom: 10px;
+   color: #004080;
+   font-size: 1.2em;
+}
+
+th, td {
+   border: 1px solid #ddd;
+   padding: 10px;
+   text-align: left;
+}
+
+th {
+   background-color: #004080;
+   color: white;
+}
+
+section {
+   transition: transform 0.3s ease;
+}
+
+section:hover {
+   transform: scale(1.02);
+}
+
+
+
+
+
