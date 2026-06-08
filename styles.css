@@ -225,6 +225,16 @@ input[type="submit"]:hover {
         margin: auto;
     }
 }
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+}
 
 
 
