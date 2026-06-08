@@ -162,6 +162,71 @@ section:hover {
    transform: scale(1.02);
 }
 
+/* Contact Form */
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #004080;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #004080;
+    outline: none;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0066cc;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    form {
+        width: 90%;
+    }
+}
+
+@media (min-width: 769px) {
+    main {
+        max-width: 960px;
+        margin: auto;
+    }
+}
+
+
 
 
 
