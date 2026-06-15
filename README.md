@@ -11,5 +11,5 @@ Published using GitHub pages
 ##Live website
 https://alinia1123.github.io/
 
-##Author
+##Author:
 Aliyah Graham
